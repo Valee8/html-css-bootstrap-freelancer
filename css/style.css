@@ -23,7 +23,6 @@ div {
     height: 100%;
 }
 
-.row > div {
-    background-color: red;
-    border: 1px solid black;
+.header-content {
+    margin-top: 90px;
 }

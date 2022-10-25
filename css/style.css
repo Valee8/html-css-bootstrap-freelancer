@@ -34,3 +34,8 @@ main .row > div {
 #about {
     background-color: #1ABC9C;
 }
+
+footer {
+    margin-top: 90px;
+    background-color: #3A546D;
+}

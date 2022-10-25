@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    width: 200px;
+}
+
+header {
+    background-color: #1ABC9C;
+}
+
+nav {
+    background-color: #2C3E50;
+    height: 90px;
+    width: 100%;
+}
+
+nav > div {
+    height: 100%;
+}
+
+.row > div {
+    background-color: red;
+    border: 1px solid black;
+}

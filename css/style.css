@@ -17,10 +17,9 @@ header {
 nav {
     background-color: #2C3E50;
     height: 90px;
-    width: 100%;
 }
 
-nav > div {
+div {
     height: 100%;
 }
 

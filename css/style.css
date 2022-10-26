@@ -56,3 +56,7 @@ footer {
     margin-top: 90px;
     background-color: #3A546D;
 }
+
+.btn, .btn:hover {
+    background-color: #1ABC9C;
+}

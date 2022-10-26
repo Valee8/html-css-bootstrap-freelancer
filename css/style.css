@@ -10,12 +10,25 @@ header {
     background-color: #1ABC9C;
 }
 
+/* nav [class*="col-"] {
+    background-color: red;
+    border: 1px solid black;
+} */
+
 nav {
     background-color: #2C3E50;
     height: 90px;
 }
 
-div {
+.container-lg {
+    height: 100%;
+}
+
+.nav-menu a {
+    color: #7F8183;
+}
+
+.row {
     height: 100%;
 }
 

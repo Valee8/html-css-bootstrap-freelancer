@@ -1,49 +1,37 @@
+/* Link */
 a {
     text-decoration: none;
 }
 
-.avatar {
-    width: 220px;
-}
-
+/* Header */
 header {
     background-color: #1ABC9C;
 }
-
-/* main [class*="col-"] {
-    background-color: red;
-    border: 1px solid black;
-}   */
-
-nav {
-    background-color: #2C3E50;
-    height: 90px;
-}
-
-.container-lg {
-    height: 100%;
-} 
-
-.nav-menu a {
-    color: #7F8183;
-}
- 
-.row, div {
-    height: 100%;
-} 
 
 .header-avatar {
     padding-top: 120px;
 }
 
-.bar {
-    height: 3px;
+/* Nav */
+nav {
+    background-color: #2C3E50;
+    height: 90px;
 }
 
-.cards-img {
-    width: 400px;
+.nav-menu a {
+    color: #7F8183;
 }
 
+/* Avatar */
+.avatar {
+    width: 220px;
+}
+ 
+.container-lg, .row, div {
+    height: 100%;
+} 
+
+/* Sezioni */
 section {
     margin-top: 40px;
 }
@@ -52,11 +40,34 @@ section {
     background-color: #1ABC9C;
 }
 
+.btn, .btn:hover {
+    background-color: #1ABC9C;
+}
+
+/* Barre laterali a fianco alla stella */
+.bar {
+    height: 3px;
+}
+
+/* Immagini card prima sezione */
+.cards-img {
+    width: 400px;
+}
+
+/* Footer */
 footer {
     margin-top: 90px;
     background-color: #3A546D;
 }
 
-.btn, .btn:hover {
-    background-color: #1ABC9C;
+footer a {
+    color: #20AA93;
+}
+
+.social-footer li a {
+    width: 50px;
+}
+
+.footer-credits {
+    background-color: #2C3E50;
 }

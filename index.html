@@ -14,9 +14,9 @@
     <!-- Container-fluid -->
     <header class="container-fluid">
         <!-- Nav -->
-         <nav class="fixed-top">
+        <nav class="fixed-top">
             <!-- Container -->
-             <div class="container">
+            <div class="container">
 
                 <div class="row justify-content-between">
 
@@ -130,7 +130,7 @@
                 </div>
 
                 <!-- Card con immagini -->
-                <div class="row row-cols-md-2 row-cols-lg-3 justify-content-center g-4">
+                <div class="row row-cols-md-2 row-cols-lg-3 justify-content-center gx-md-5 gy-5">
                     <div class="col-auto">
                         <img class="mw-100 img-fluid cards-img rounded-3" src="img/cabin.png" alt="cabin">
                     </div>
@@ -159,15 +159,18 @@
 
         </section>
 
+        <!-- Seconda sezione -->
         <section id="about" class="p-5">
             <div class="container">
                 <div class="row text-center justify-content-center text-white flex-column">
                     <div class="mx-auto col-auto">
+                        <!-- Titolo -->
                         <h2>
                             ABOUT
                         </h2>
                     </div>
 
+                    <!-- Barre laterali con stella al centro -->
                     <div class="mx-auto col-lg-7 pb-3 fs-4">
                         <div class="row justify-content-center">
                             <div class="col-2 bg-white align-self-center rounded bar"></div>
@@ -177,8 +180,7 @@
                     </div>
                 </div>
 
-
-
+                <!-- Paragrafi -->
                 <div class="row justify-content-center flex-column flex-md-row align-items-center text-white">
                     <div class="col-md-4 text-start">
                         <p>
@@ -193,6 +195,7 @@
                     </div>
                 </div>
 
+                <!-- Link download -->
                 <div class="row text-center pt-5">
                     <div class="col-md-12">
                         <a class="text-white border border-light p-2 rounded-2" href="#">
@@ -204,15 +207,18 @@
             
         </section> 
 
+        <!-- Terza sezione -->
         <section id="contact-me">
             <div class="container">
                 <div class="row text-center justify-content-center flex-column fs-4">
                     <div class="col-auto">
+                        <!-- Titolo -->
                         <h2>
                             CONTACT ME
                         </h2>
                     </div>
 
+                    <!-- Barre laterali con stella al centro -->
                     <div class="col-lg-6 mx-auto">
                         <div class="row justify-content-center">
                             <div class="col-2 bg-dark align-self-center rounded bar"></div>
@@ -221,6 +227,7 @@
                         </div>
                     </div>
 
+                    <!-- Inizio input -->
                     <div class="col-7 mx-auto">
                         <input class="form-control border-0 border-bottom text-dark my-2" type="text" placeholder="Name">
                         <input class="form-control border-0 border-bottom text-dark my-2" type="text" placeholder="Email Address">
@@ -237,27 +244,70 @@
     </main>
 
 
-    <footer>
+    <!-- Footer -->
+    <footer class="pt-5">
         <div class="container">
 
-            <div class="row justify-content-center text-white text-center row-cols-md-1 row-cols-3">
-                <div class="col-md-4 col-12">
-                    Testo
-                </div>
-                <div class="col-md-4 col-12">
-                    Testo
-                </div>
-                <div class="col-md-4 col-12">
-                    Testo
-                </div>
-            </div>
+            <div class="row justify-content-center text-white text-center row-cols-md-1 row-cols-lg-3 pb-5">
+                <div class="col-lg-4 col-md-3">
+                    <h3>
+                        LOCATION
+                    </h3>
 
-            <div class="row justify-content-center text-white text-center">
-                <div class="col-12">
-                    Testo
+                    <p class="fs-5">
+                        2215 John Daniel Drive Clark, MO <br>54243
+                    </p> 
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3>
+                        AROUND THE WEB
+                    </h3>
+
+                    <ul class="list-unstyled row justify-content-center fs-5 social-footer">
+                        <li class="align-self-center col-auto px-lg-2 px-md-1">
+                            <a class="text-white border border-light rounded-circle py-2 d-block" href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="align-self-center col-auto px-lg-2 px-md-1">
+                            <a class="text-white border border-light rounded-circle py-2 d-block" href="#">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="align-self-center col-auto px-lg-2 px-md-1">
+                            <a class="text-white border border-light rounded-circle py-2 d-block" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="align-self-center col-auto px-lg-2 px-md-1">
+                            <a class="text-white border border-light rounded-circle py-2 d-block" href="#">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <h3>
+                        ABOUT FREELANCER
+                    </h3>
+
+                    <p class="fs-5">
+                        Freelance is a Free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.
+                    </p>
                 </div>
             </div>
             
+        </div>
+
+        <div class="container-fluid">
+            <div class="row justify-content-center text-white text-center footer-credits pt-5 pb-4">
+                <div class="col-auto">
+                    <p>
+                        Copyright &copy; Your Website 2019
+                    </p>
+                </div>
+            </div>
         </div>
     </footer>
 

@@ -40,6 +40,10 @@ nav {
     height: 3px;
 }
 
+.cards-img {
+    width: 400px;
+}
+
 section {
     margin-top: 40px;
 }

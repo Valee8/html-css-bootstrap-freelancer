@@ -10,10 +10,10 @@ header {
     background-color: #1ABC9C;
 }
 
-/* .header-content [class*="col-"] {
+/* main [class*="col-"] {
     background-color: red;
     border: 1px solid black;
-}  */
+}   */
 
 nav {
     background-color: #2C3E50;
@@ -22,26 +22,26 @@ nav {
 
 .container-lg {
     height: 100%;
-}
+} 
 
 .nav-menu a {
     color: #7F8183;
 }
-
+ 
 .row, div {
     height: 100%;
+} 
+
+.header-avatar {
+    padding-top: 120px;
 }
 
-.header-content {
-    padding-top: 120px;
+.bar {
+    height: 3px;
 }
 
 section {
     margin-top: 40px;
-}
-
-main .row > div {
-    min-height: 50px;
 }
 
 #about {
